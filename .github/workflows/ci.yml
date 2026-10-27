@@ -1,11 +1,10 @@
 name: Rust-static-build
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build:
-    runs-on: ubuntu-24.04-arm
-    container: 
+    runs-on: [self-hosted, unbound]
     steps:
     - uses: actions/checkout@v7
     - name: Build-musl
