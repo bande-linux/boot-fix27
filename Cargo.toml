@@ -3,8 +3,8 @@ name = "boot-fix27"
 version = "0.1.0"
 edition = "2024"
 description = "Fix macOS 27 bootability flag from linux side"
-homepage = "https://github.com/unbound-linux/boot-fix27"
-repository = "https://github.com/unbound-linux/boot-fix27"
+homepage = "https://github.com/bande-linux/boot-fix27"
+repository = "https://github.com/bande-linux/boot-fix27"
 license = "GPL-2.0-only"
 
 

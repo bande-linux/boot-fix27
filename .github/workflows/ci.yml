@@ -4,7 +4,7 @@ on:
     tags: ['v*']
 jobs:
   build:
-    runs-on: [self-hosted, unbound]
+    runs-on: ubuntu-24.04-arm
     steps:
     - uses: actions/checkout@v7
     - name: Build-musl
