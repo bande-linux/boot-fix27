@@ -1,7 +1,7 @@
 name: Rust-static-build
 on:
   push:
-    branches: [ main ]
+    tags: ['v*']
 jobs:
   build:
     runs-on: [self-hosted, unbound]
